@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+package user;
+
+option go_package = "/user";
+
+message User {
+    required int64 id = 1;
+    required string name = 2;
+    optional int64 follow_count = 3;
+    
+}
