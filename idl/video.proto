@@ -1,9 +1,0 @@
-syntax = "proto2";
-
-package video;
-
-option go_package = "/video";
-
-message Video {
-    
-}
